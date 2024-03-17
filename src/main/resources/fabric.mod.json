@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "planters",
+  "version": "${version}",
+  "name": "Planters",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/avetharun/Planters"
+  },
+  "license": "MIT",
+  "icon": "assets/planters/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.feintha.planters.client.PlantersClient"
+    ],
+    "main": [
+      "com.feintha.planters.Planters"
+    ]
+  },
+  "mixins": [
+    "planters.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

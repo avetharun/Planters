@@ -1,0 +1,20 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.feintha.planters.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "BlockPlaceOnMixins$BambooBlockMixin",
+    "BlockPlaceOnMixins$CropBlockMixin",
+    "BlockPlaceOnMixins$LargeDripleafBlockMixin",
+    "BlockPlaceOnMixins$PlantBlockMixin",
+    "BlockPlaceOnMixins$SeaPickleBlockMixin",
+    "BlockPlaceOnMixins$SmallDripleafBlockMixin",
+    "BlockPlaceOnMixins$SugarCaneBlockMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
